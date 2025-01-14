@@ -10,7 +10,7 @@ from wordcloud import WordCloud
 import os
 
 # Initialize Flask app
-app = Flask(__name__)
+app = Flask(__name__, template_folder='.')
 
 # Upload folder
 UPLOAD_FOLDER = 'static/uploads'
